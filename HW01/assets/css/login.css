@@ -1,0 +1,124 @@
+body{
+    background-image: url(../images/logobg.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-text{
+    width:800px;
+    padding:50px;
+    font-family: "PingFang SC";
+    color: white;
+    position:absolute;
+    top:45%;
+    left:40%;
+    transform:translate(-50%,-75%);
+}
+.login-text h1{
+    font-size: 60px;
+}
+.login-container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(50%,-75%);
+    width:30rem;
+    padding:3rem;
+    background: #FFF;
+    box-sizing:border-box;
+    box-shadow: 0px 15px 25px rgba(0,0,0,.5);
+    border-radius:10px;
+}
+.login-container h1{
+    margin:0 0 50px;
+    padding:0;
+    font-family: "PingFang SC";
+    font-weight: bold;
+    color: #000;
+    text-align:center;
+}
+.login-container .input-box{
+    height: 40px;
+    margin-bottom: 20px;
+    position:relative;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    padding-left:30px;//图标位置
+}
+.input-box:hover{
+    border: 1px solid #0af;
+}
+.input-box:after{
+    border: 1px solid #0af;
+}
+.login-container .input-box input{
+    width: 100%;
+    padding:10px 0;
+    font-size:16px;
+    color:#000;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    outline:none;
+    background: transparent;
+}
+.login-container .input-box label{
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding:10px 0;
+    font-size: 16px;
+    color:#fff;
+    pointer-events:none;
+    transition:.5s;
+}
+.login-icon{
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 40px;
+}
+.icon-user{
+    background-image: url("../images/user.png");
+}
+.icon-password{
+    background-image: url("../images/password.png");
+}
+.login-rembpass{
+    padding-bottom: 20px;
+}
+.login-btn button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: rgba(64,145,248,1);
+    font-size: 1rem;
+    cursor:pointer;
+}
+.login-footer{
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: #fff;
+}
+.login-footer-span{
+    margin: 0 15px;
+}
+.login-footer-span a{
+    color: white;
+    width:70px;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none
+}
+.login-footer-span a:hover{
+    color: #0af;
+}
+
