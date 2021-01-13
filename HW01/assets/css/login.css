@@ -100,6 +100,9 @@ body{
     font-size: 1rem;
     cursor:pointer;
 }
+.login-btn button:hover {
+    background: rgba(64,145,248,0.8);
+}
 .login-footer{
     position: absolute;
     top: 95%;
